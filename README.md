@@ -1,2 +1,8 @@
 # prompt-variable-auditor
-Audit prompt templates for unresolved, unused, and undeclared variables.
+
+Audit `{variable}` placeholders against a declared prompt-variable set.
+
+```bash
+python -m unittest -v
+```
+MIT licensed.
